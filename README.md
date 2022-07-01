@@ -31,7 +31,7 @@ It can be another deciding factor in the cleanliness or food quality as establis
 Real estate expense or cost of operation of an establishment can be another factor to determine cost of operation of an establishment. It can be numerical float feature which can be feature scaled to determine its correlation with inspection grade. Although there can be negative or a positive correlation with inspection score. E.g- Expensive real estate price affecting operation cost decreasing the profits while expensive real estate can also mean better upmarket area which means lesser chance of collecting violation codes. Data type – Numerical, float
 
 
-# BIBLIOGRAPHY
+### Bibliography
 
 [1] Walter (2013). Prediction of NYC Restaurant Health Inspection Results. https://cs229.stanford.edu/proj2013/Walter-PredictionOfNYCRestaurantHealthInspectionResults%20pdf.pdf 
 [2] Kannan, Vinesh & Shapiro, Matthew & Bilgic, Mustafa. (2019). Hindsight Analysis of the Chicago Food Inspection Forecasting Model. https://arxiv.org/pdf/1910.04906.pdf
