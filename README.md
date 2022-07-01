@@ -1,7 +1,7 @@
 # Restaurant Inspection Grade Prediction
 An attempt to build an MVP model that predicts the outcome of a restaurant’s next inspection
 
-# Recommendations
+### Recommendations
 To improve the predictive power of the model, we can improve certain type of features in the database. Some of these are available public data and some may have to be web scraped from websites. But I believe as a government agency, Department of health can directly access some 3rd party data from the hosting companies without going through web scraping process. Most of these features are a mix of categorical and numerical types and have been listed below in the descending order of importance.
 1.	Yelp Reviews
 In reference to the research paper [1] (Walter 2013) it shows that sentiment analysis on yelp reviews regarding a particular restaurant can be used to predict the inspection score. The basic idea is that customers who have eaten at a specific restaurant can best describe their service. Although every customer doesn’t give reviews but there tend to be a decent number of reviews (both negative and positive) for a restaurant opened for at least a year. The only problem with this dataset is that it is not a verifiable source as it is not collected through any formal process. Data type – Categorical
