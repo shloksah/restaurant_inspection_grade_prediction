@@ -1,4 +1,4 @@
-# restaurant_inspection_grade_prediction
+# Restaurant Inspection Grade Prediction
 An attempt to build an MVP model that predicts the outcome of a restaurant’s next inspection
 
 # Recommendations
