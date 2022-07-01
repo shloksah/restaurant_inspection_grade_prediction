@@ -1,6 +1,7 @@
 # restaurant_inspection_grade_prediction
 An attempt to build an MVP model that predicts the outcome of a restaurant’s next inspection
-RECOMMENDATION
+
+# RECOMMENDATIONS
 To improve the predictive power of the model, we can improve certain type of features in the database. Some of these are available public data and some may have to be web scraped from websites. But I believe as a government agency, Department of health can directly access some 3rd party data from the hosting companies without going through web scraping process. Most of these features are a mix of categorical and numerical types and have been listed below in the descending order of importance.
 1.	Yelp Reviews
 In reference to the research paper [1] (Walter 2013) it shows that sentiment analysis on yelp reviews regarding a particular restaurant can be used to predict the inspection score. The basic idea is that customers who have eaten at a specific restaurant can best describe their service. Although every customer doesn’t give reviews but there tend to be a decent number of reviews (both negative and positive) for a restaurant opened for at least a year. The only problem with this dataset is that it is not a verifiable source as it is not collected through any formal process. Data type – Categorical
@@ -30,7 +31,8 @@ It can be another deciding factor in the cleanliness or food quality as establis
 Real estate expense or cost of operation of an establishment can be another factor to determine cost of operation of an establishment. It can be numerical float feature which can be feature scaled to determine its correlation with inspection grade. Although there can be negative or a positive correlation with inspection score. E.g- Expensive real estate price affecting operation cost decreasing the profits while expensive real estate can also mean better upmarket area which means lesser chance of collecting violation codes. Data type – Numerical, float
 
 
-BIBLIOGRAPHY
+# BIBLIOGRAPHY
+
 [1] Walter (2013). Prediction of NYC Restaurant Health Inspection Results. https://cs229.stanford.edu/proj2013/Walter-PredictionOfNYCRestaurantHealthInspectionResults%20pdf.pdf 
 [2] Kannan, Vinesh & Shapiro, Matthew & Bilgic, Mustafa. (2019). Hindsight Analysis of the Chicago Food Inspection Forecasting Model. https://arxiv.org/pdf/1910.04906.pdf
 [3] Anand, Purohit, Kaur & Goomer. (2018). Predicting Restaurant Health using Yelp data and Government Inspections. https://rafaelsilva.com/files/teaching/inf-553-fall-2018/007-Predicting-Restaurant-Health.pdf
